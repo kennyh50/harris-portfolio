@@ -1,9 +1,13 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <h2>Kenny's future website</h2>
+    <div>
+      <h1 className='text-red-500' >yooooo </h1>
+      <Navbar />
+    </div>
+   
   );
 }
 
