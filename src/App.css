@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body{
   background-color: #ffd7aa;
+}
+
+.nav{
+  font-family: 'Abril Fatface', cursive;
 }
