@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Dropdown from './components/Dropdown.js';
 import './App.css';
 import Navbar from './components/Navbar.js';
+import Hero from './components/Hero.js';
 
 function App() {
 const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ useEffect(() => {
     <>
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Hero />
     </>
    
   );
