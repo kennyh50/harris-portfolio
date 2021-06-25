@@ -22,6 +22,12 @@ const Navbar = ({toggle}) => {
         <Link to="/" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'> 
           Socials
         </Link>
+        <Link to='/Contact' className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'> 
+          CONTACT ME
+        </Link>
+        <Link to="/" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'> 
+          Support my people!
+        </Link>
       </h1>
      
       <div className="px-4 cursor-wait md:hidden" onClick={toggle}>
