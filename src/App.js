@@ -7,6 +7,7 @@ import Contact from './pages/Contact.js';
 import Home from './pages/index.js';
 import Projects from './pages/Projects.js';
 import Socials from './pages/Socials.js';
+import Footer from './components/Footer.js';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,6 +40,7 @@ function App() {
         <Route path='/socials' component={Socials} />
         <Route path='/contact' component={Contact} />
       </Switch>
+      <Footer />
     </>
 
   );
