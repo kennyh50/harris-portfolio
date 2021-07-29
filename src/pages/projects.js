@@ -1,11 +1,11 @@
 import React from 'react'
 
-const projects = () => {
+const Projects = () => {
   return (
     <div>
-      project here 
+      <h1 className='flex justify-center'>COMING SOON</h1>
     </div>
   )
 }
 
-export default projects
+export default Projects
