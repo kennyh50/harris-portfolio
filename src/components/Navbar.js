@@ -14,16 +14,13 @@ const Navbar = ({ toggle }) => {
         <Link to="/Projects" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-400 to-blue-500'>
           Projects
         </Link>
-        <Link to="/" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br via-indigo-500 from-white to-black'>
+        <Link to="/Resume" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br via-indigo-500 from-white to-black'>
           Resume
-        </Link>
-        <Link to="/Socials" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'>
-          Socials
         </Link>
         <Link to='/Contact' className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'>
           CONTACT ME
         </Link>
-        <Link to="/" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'>
+        <Link to="/Support" className='px-4 text-base font-nav bg-clip-text hover:text-transparent bg-gradient-to-br from-green-700 to-red-600'>
           Support the Homies!
         </Link>
       </h1>
