@@ -4,13 +4,15 @@ import proPic from '/Users/kharris/Desktop/harris-portfolio/src/images/pro_pic.j
 const Hero = () => {
   return (
     <>
-      <div>
-        <div className='flex justify-center'>
-          <img src={proPic} alt="ProPic" />
-          <div className=''>
-            <h1>Kenneth Harris </h1>
-            <p> Web Developer </p>
-          </div>
+      <div className='flex justify-center mt-4'>
+
+        <img src={proPic} alt="ProPic" className='rounded-lg' />
+
+
+        <h1 className='font-black'>Kenneth Harris </h1>
+
+        <div>
+
         </div>
       </div>
 
