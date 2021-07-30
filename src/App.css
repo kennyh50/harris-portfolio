@@ -2,4 +2,9 @@
 
 body{
   background-color: #ffd7aa;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
 }
+
+

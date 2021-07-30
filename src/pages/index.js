@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 const Home = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <Hero />
     </>
   )
 }
